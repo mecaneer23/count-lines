@@ -13,6 +13,7 @@ def parse_args() -> Namespace:
         "--lines-of-code",
         "-l",
         action="store_true",
+        help="toggle between total lines and loc modes"
     )
     return parser.parse_args()
 
